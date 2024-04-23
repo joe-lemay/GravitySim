@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#canvas1 {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    /* overflow: hidden; */
+    /* border: 5px solid white; */
+}
+
+
+#camera-panel{
+    display: flex;
+    gap: 10px;
+    padding:20px;
+    max-height: 150px;
+    position: absolute;
+}
+#left-right{
+    display:flex;
+    gap: 20px;
+}
+#directions{
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#directions button{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#camera-panel button{
+    width: 30px;
+    height: 30px
+}
+
+.magnify{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.wrapper {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+#controls {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width:200px;
+    flex: 1;
+    gap: 10px;
+    position: relative;
+    left: -250px;
+    max-height: 300px;
+}
+#buttonPanel{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+#radioPanel{
+    display:flex;
+    gap: 10px;
+}
+
+#container {
+    display: flex;
+}
+
+.slider{
+    color: white;
+    font-weight: bolder;
+}
+
+.txtWhite{
+    color: white;
+    font-weight: bolder;
+}
+
+.radio{
+    display: flex;
+    gap: 5px
+}
